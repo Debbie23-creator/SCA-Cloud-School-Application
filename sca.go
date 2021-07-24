@@ -7,7 +7,7 @@ import (
 )
 
 func homePage(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Welcome to SCA Cloud School Applicaton %s", time.Now())
+	fmt.Fprintf(w, "Welcome to SCA Cloud School Applicaton, this is my first assessment %s", time.Now())
 	fmt.Println("Endpoint Hit: homePage")
 }
 
